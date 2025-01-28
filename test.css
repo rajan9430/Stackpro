@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+}
+header{
+    background: linear-gradient(360deg, #f5adad, #e88181, #f5adad);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 3rem;
+}
+header h1{
+    font-weight: 700;
+    font-style: italic;
+}
+header ul{
+    display: flex;
+    list-style: none;;
+}
+header ul a{
+    text-decoration: none;
+    padding: 0.5rem;
+    color: black;
+}
+header ul a:hover{
+    color: grey;
+    font-weight: 700;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    border: 1px solid rgb(114, 113, 113);
+    width: 30%;
+    position: relative;
+    margin-top: 3rem;
+    border-radius: 5px;
+}
+.box img{
+    width: 100%;
+    border-radius: 5px;
+    height: 300px;
+}
+h1{
+    font-weight: 700;
+    margin: 10px;
+}
+.box p{
+    text-align: justify;
+    margin: 10px;
+}
+.box button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 85px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    border-style: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+.box span{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    border: 2px solid red;
+    width: 45px;
+    text-align: center;
+    background-color: red;
+    color: #fff;
+}
+
